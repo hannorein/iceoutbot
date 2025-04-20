@@ -1,4 +1,4 @@
-ICEOUT Citation Bot
+ICEOUT Bot
 ===================
 
 This is a mastodon and bluesky bot which posts current iceout conditions in Algonquin Park.
