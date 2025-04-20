@@ -54,7 +54,7 @@ try:
     media = mastodon.media_post("iceout.jpg", description=alt)
     print(f"Image uploaded successfully. Media ID: {media['id']}")
     
-    mastodon.status_post(alt, media_ids=[media['id']])
+    mastodon.status_post(text, media_ids=[media['id']])
     print("Toot with image posted successfully!")
 except Exception as e:
     print(f"Error uploading media: {e}")
